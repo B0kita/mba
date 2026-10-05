@@ -69,11 +69,14 @@ FIAP · Startup One · Outubro de 2026
 
 ---
 
-# Slide 2 — 01 · Base da Aula 01 (preliminar)
+# Slide 2 — 01 · Base da Aula 01
 
 **O recorte que segue.** Fadiga e sofrimento psíquico de motoristas profissionais, em transportadoras
 de carga com frota própria e motoristas CLT, em contexto de jornada longa, remuneração por produção
 e descanso cobrado por punição. Fora: aplicativo e autônomo sem vínculo — sem empregador não há PGR.
+
+Ilustramos com telemetria real de uma frota de ônibus: os sinais de jornada e condução são os mesmos
+que a frota de carga já coleta. ⚪
 
 | Hipótese da E1                          | O que ficou                        | Consequência para esta entrega                                                        |
 | ---------------------------------------- | ---------------------------------- | -------------------------------------------------------------------------------------- |
@@ -88,7 +91,19 @@ Entrega Parcial 01, seção 06 — PRF Dados Abertos 2024 · CNT 2025 · Oliveir
 
 <!-- coluna -->
 
-> **Declaração do problema (5W2H)**
+**5W2H**
+
+| | |
+|---|---|
+| **O quê** | Gestão preditiva do risco de fadiga e psicossocial do motorista, com o PGR psicossocial como saída ⚪ |
+| **Por quê** | Dormir ao volante mata 2× mais que álcool por sinistro (PRF 2024: 10,3 contra 5,0 mortes por 100), e a NR-1 cobra a gestão desse risco desde 26/05/2026 🟢 |
+| **Quem** | O gestor de SST decide e responde; o motorista usa e se beneficia 🟢 |
+| **Onde** | Transportadora com frota própria e motorista CLT, sobre a telemetria que ela já tem 🟢 |
+| **Quando** | Antes da viagem, 24 a 72 h. Hoje a ação vem depois: punição ou sinistro 🟢 |
+| **Como** | Risco visto antes da escala → gestor ajusta escala ou pausa → motorista recebe a rota com paradas → a gestão vira registro do PGR ⚪ |
+| **Quanto** | Não é preço. Para o gestor, gestão contínua e auditável no lugar de papel; para o motorista, uma pausa planejada que não custa a viagem 🟡 |
+
+> **Declaração do problema** — a conclusão do 5W2H
 >
 > Nosso **serviço de gestão preditiva de risco psicossocial** permitirá que **gestores de SST de
 > transportadoras** saibam **quais motoristas estão entrando em risco de fadiga nas próximas 24–72 h
@@ -107,7 +122,7 @@ não só ser poupado por ela.
 
 ---
 
-# Slide 3 — 02 · Persona do gestor de SST (preliminar)
+# Slide 3 — 02 · Persona do gestor de SST
 
 *Persona sintética — composta de fontes públicas, não de entrevista.*
 
@@ -124,19 +139,26 @@ diretoria e negocia com a seguradora.
 | **Necessidade**        | Um documento defensável para o auditor e um sinal acionável antes do sinistro                           | 🟡    |
 | **Motivação**        | Evitar multa e MPT; não ser o nome no processo; ser visto como quem cuida da frota                       | 🟡    |
 
+```kpi
+133 mil | registros de telemetria em 7 dias
+18 mil | alertas de conduta na semana
+0 | sobre fadiga ou saúde
+```
+
 ```fonte
-Portarias MTE nº 1.419/2024 e nº 765/2025 · TRT da 3ª Região, 4ª Turma, decisão de 22/07/2026 · E1 slide 2
+Portarias MTE nº 1.419/2024 e nº 765/2025 · TRT da 3ª Região, 4ª Turma, decisão de 22/07/2026 · E1 slide 2 · telemetria de frota de ônibus, 16 veículos e 46 motoristas, 01 a 07/01/2026, sem identificação
 ```
 
 <!-- coluna -->
 
 > **Mapa da empatia — gestor**
 >
-> **Vê:** o Diário de Bordo e o relatório de telemetria; o sinistro depois que aconteceu; a
-> checklist do ERP que "atende a NR-1".
+> **Vê:** o Diário de Bordo e o relatório de telemetria; 18 mil alertas de conduta por semana, sem
+> saber quais importam; o sinistro depois que aconteceu; a checklist do ERP que "atende a NR-1".
 > **Ouve:** da diretoria, "resolve isso sem parar a operação"; do jurídico, "a partir de maio a
 > fiscalização pode autuar"; do motorista, silêncio.
-> **Pensa e sente:** que vai descobrir o problema pela multa ou pelo acidente — nunca antes.
+> **Pensa e sente:** que vai descobrir o problema pela multa ou pelo acidente — nunca antes. Que a
+> média da frota parece normal, mas o risco está em poucos motoristas, e nenhum alerta aponta quem.
 > **Fala e faz:** compra checklist, contrata consultoria de SST, disciplina quem não cumpre pausa.
 > **Dores:** sem método, sem tempo, sem dado de saúde — e agora com obrigação.
 > **Ganhos:** PGR pronto, risco visível por frota, uma decisão possível antes da viagem.
@@ -147,7 +169,7 @@ muda de "antecipe o risco" para "tenha o PGR". A entrevista com gestor decide.
 
 ---
 
-# Slide 4 — 02 · Persona do motorista (preliminar)
+# Slide 4 — 02 · Persona do motorista
 
 *Persona sintética — composta de fontes públicas, não de entrevista.*
 
@@ -164,8 +186,16 @@ muda de "antecipe o risco" para "tenha o PGR". A entrevista com gestor decide.
 39,6% | dormem até 6 h
 ```
 
+**Na frota que observamos**
+
+```kpi
+8,6 h | turno típico
+12% | dos motoristas com ao menos um dia de 14 h ou mais
+6% | dos descansos abaixo das 11 h
+```
+
 ```fonte
-CNT, Perfil e Preferências dos Caminhoneiros 2025 (n=800) · Agência Brasil, 20/09/2025 · Pé na Estrada, 28/05/2026
+CNT, Perfil e Preferências dos Caminhoneiros 2025 (n=800) · Agência Brasil, 20/09/2025 · Pé na Estrada, 28/05/2026 · telemetria de frota de ônibus, 16 veículos e 46 motoristas, 01 a 07/01/2026, sem identificação
 ```
 
 <!-- coluna -->
@@ -186,6 +216,8 @@ Setenta por cento do pessoal é comissionado. Se você não trabalhar, você nã
 ```
 
 *Nota de apresentação: o que só a entrevista responde é se, recebendo a rota com paradas, o motorista aceita o check-in de 30 s — a hipótese H6, que sustenta a camada consentida. Está na página 13.*
+
+*Nota de apresentação: a média não mostra o risco; o caso mostra. Na semana observada, um motorista fez 16,5 h num dia e voltou ao volante 7,7 h depois. Os alertas de conduta não subiram com as horas de turno (17 a 19 por hora): a telemetria de hoje não vê a fadiga. Ressalvas: uma semana, uma frota de ônibus e motor ligado como medida, o que deixa a jornada real abaixo do que aparece. Os números da CNT e os nossos medem coisas diferentes e não se comparam diretamente.*
 
 ---
 
